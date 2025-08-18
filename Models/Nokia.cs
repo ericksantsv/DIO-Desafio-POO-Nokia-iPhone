@@ -3,7 +3,7 @@ namespace DesafioPOO.Models
     public class Nokia : Smartphone
     {
         public Nokia(string numero, string modelo, int memoria, int espaco)
-            : base(numero, modelo, memoria, espaco) // ✅ usando parâmetros, não propriedades
+            : base(numero, modelo, memoria, espaco)
         {
         }
 
